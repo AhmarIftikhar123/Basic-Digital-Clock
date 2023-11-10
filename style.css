@@ -58,6 +58,11 @@ main::after {
   font-size: 3rem;
   position: relative;
 }
+.opt span {
+  display: inline-block;
+  width: 4rem;
+  text-align: center;
+}
 #hrs::after,
 #mins::after,
 #secs::after {
@@ -65,15 +70,15 @@ main::after {
   position: absolute;
   font-size: 0.9rem;
   bottom: -18px;
-  left: 9px;
+  left: 14px;
 }
 #mins::after {
   content: "Mins";
   left: 6.8rem;
-  transform: translateX(10%);
+  transform: translateX(15%);
 }
 #secs::after {
   content: "Secs";
   left: 12.8rem;
-  transform: translateX(-5%);
+  transform: translateX(18%);
 }
